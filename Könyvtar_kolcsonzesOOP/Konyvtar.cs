@@ -2,7 +2,7 @@ namespace Könyvtar_kolcsonzesOOP;
 
 internal class Konyvtar
 {
-    public List<Konyv> Konyvek { get; private set; }
+    public List<Konyv> Konyvek { get; set; }
 
     public Konyvtar()
     {
